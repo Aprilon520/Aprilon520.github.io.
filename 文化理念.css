@@ -1,0 +1,89 @@
+* 标题和导航 */
+.hn{
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    /* background-color: rosybrown; */
+}
+/* 整体字体 */
+p{
+    font-family: 等线;
+    font-weight: 600;
+    line-height: 40px;
+    text-indent: 40px;
+    color: rgb(41, 41, 128);
+}
+
+/* 大标题 */
+h1{
+    margin-left: 100px;
+    color: rgb(41, 41, 128);
+    font-family: 本墨剪字;
+    font-size: 60px;
+}
+.hn span{
+    color: rgb(251, 178, 23);
+}
+ 
+/* 导航条 */
+ul{
+    padding: 0;
+    list-style: none;
+}
+.nav{
+    margin-left: 900px;
+    margin-top: -10px;
+}
+ul li{
+    float: left;
+}
+.nav a{
+    display: block;
+    text-decoration: none;
+    color: rgb(41, 41, 128);
+    padding: 0 20px;
+    font-size: 20px;
+    font-family: 等线;
+    font-weight: 800;
+
+}
+/* 小标题 */
+h2{
+    font-family: 本墨剪字;
+    color: rgb(251, 178, 23);
+}
+/* 内容 */
+body{
+    background: url(./image/bg2.jpg);
+    background-size: cover;
+}
+.container{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 1200px;
+    padding: 30px;
+    background: #fff;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 15px 50px rgba(0, 0, 0,.2);
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    background: url(./image/circle.gif);
+    float: left;
+    shape-outside: circle();
+    margin: 60px 30px 30px 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+h3{
+    margin: 0px  0 20px;
+    padding: 0;
+    font-size: 30px;
+}

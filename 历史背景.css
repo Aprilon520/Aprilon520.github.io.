@@ -1,0 +1,158 @@
+/* 标题和导航 */
+.hn{
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    /* background-color: rosybrown; */
+}
+/* 整体字体 */
+p{
+    font-family: 等线;
+    font-weight: 600;
+    line-height: 40px;
+    text-indent: 40px;
+    color: rgb(41, 41, 128);
+}
+
+/* 大标题 */
+h1{
+    margin-left: 100px;
+    color: rgb(41, 41, 128);
+    font-family: 本墨剪字;
+    font-size: 60px;
+}
+.hn span{
+    color: rgb(251, 178, 23);
+}
+ 
+/* 导航条 */
+ul{
+    padding: 0;
+    list-style: none;
+}
+.nav{
+    margin-left: 900px;
+    margin-top: -10px;
+}
+ul li{
+    float: left;
+}
+.nav a{
+    display: block;
+    text-decoration: none;
+    color: rgb(41, 41, 128);
+    padding: 0 20px;
+    font-size: 20px;
+    font-family: 等线;
+    font-weight: 800;
+
+}
+body{
+    background: url(./image/bg4.jpg);
+    background-size: cover;
+}
+
+/* 小标题 */
+.head{
+           margin-left: 100px;
+       }
+       .head p{
+            width: 500px;
+       }
+       h2{
+           font-family: 本墨剪字;
+           color: rgb(251, 178, 23);
+       }
+ /* 给历史一写样式 */       
+.first{
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    /* background-color: rosybrown; */
+    margin-top: -100px;
+}
+.inner1{
+    width: 60%;
+    margin-top: 120px;
+    float: left;
+}
+.inner2{
+    width: 37%;
+    float: right;
+}
+.first p{
+    width: 35%;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+/* 给历史二写样式 */
+.sec{
+    width: 1200px;
+    height: 480px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    overflow: hidden;
+    /* background-color: rosybrown;
+        */
+    }
+.inner3{
+    width:37%;
+    margin-top: 200px;
+    
+}
+.inner4{
+    width: 60%;
+    float: right;
+}
+.sec p{
+    width: 35%;
+    float: left;
+    margin-left: 20px;
+    margin-top: -450px;
+}
+/* 给历史三的样式 */
+.thd{
+    width: 1200px;
+    height: 480px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    overflow: hidden;
+    /* background-color: rosybrown; */
+    
+    }
+.thd img{
+    width: 60%;
+}
+.thd p{
+    float: right;
+    width: 30%;
+    margin-top: 200px;
+    margin-right: 50px;
+}
+/* 给历史四的样式 */
+.forth{
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    overflow: hidden;
+    /* background-color: rosybrown; */
+    
+    }
+.forth img{
+    width: 60%;
+    margin-left: auto;
+    float:right
+}
+.forth p{
+    float: left;
+    width: 35%;
+    margin-left: 30px;
+    margin-top: 70px;
+    
+}
+
+
+

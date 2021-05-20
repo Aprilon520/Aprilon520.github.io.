@@ -1,0 +1,165 @@
+/* 去格式 */
+.hn{
+    margin: 0;
+    padding: 0;
+}
+
+/* 整体字体 */
+p{
+    font-family: 等线;
+    font-weight: 600;
+    line-height: 40px;
+    text-indent: 40px;
+    color: rgb(41, 41, 128);
+}
+
+
+
+/* 表格去格式 */
+ul{
+    padding: 0;
+    list-style: none;   
+}
+/* 导航条 */
+.nav{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.nav li{
+    float: left;
+    margin-left: 60px;
+   
+}
+.nav a{
+    display: block;
+    text-decoration: none;
+    color: rgb(41, 41, 128);
+    font-size: 20px;
+    font-family: 等线;
+    font-weight: 800;
+    /* background: rosybrown; */
+}
+/* 大标题 */
+h1{
+    margin-left: 100px;
+    color: rgb(41, 41, 128);
+    font-family: 本墨剪字;
+    font-size: 60px;
+}
+/* 标题特殊字体 */
+.hn span{
+    color: rgb(251, 178, 23);
+}
+body{
+    background: url(./image/bg-1.jpg);
+    background-size: cover;
+}
+/* 内容 */
+.first,.sec{
+    width: 1300px;
+    height: 600px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    overflow: hidden;
+    /* background-color: rosybrown; */
+}
+.pic2{
+    width: 60%;
+    margin-top: 100px;
+}
+.pic3{
+    width: 37%;
+    float: right;
+}
+.sec{
+    width: 1300px;
+    height: 350px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    overflow: hidden;
+    /* background-color: rosybrown; */
+}
+.sec img{
+    width: 50%;
+}
+.sec p{
+    width: 40%;
+    float: right;
+    margin-right: 70px;
+    margin-top: 60px;
+}
+
+.third{
+    width: 1300px;
+    height: 350px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    overflow: hidden;
+    /* background-color: rosybrown; */
+}
+.third img{
+    width: 50%;
+    float: right;
+    
+}
+.third p{
+    width: 40%;
+    margin-left: 70px;
+    margin-top: 100px;
+}  
+
+/* 尾部 */
+.footer{
+    width: 1300px;
+    height: 200px;
+    margin: 0 auto;
+    /* background-color: rosybrown; */
+}
+
+.footer-left-img{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 18px;
+    margin-top: 100px;
+}
+.footer-left-message{
+    float: left;
+    margin-top: 80px;
+}
+.footer-left-message li{
+float: left;
+color: #575757;
+font-size: 14px;
+padding: 0 8px;
+border-right: 1px solid #575757;
+height: 14px;
+line-height: 14px;
+}
+.about{
+    overflow: hidden;
+    padding-top: 3px 0 7px;
+}
+.footer-right .title{
+    color: #575757;
+    font-size: 14px;
+}
+.footer-right .tel{
+    color: rgb(41, 41, 128);
+    font-size: 20px;
+}
+.footer-right .nonsense{
+    color: #575757;
+    font-size: 12px;
+}
+.footer-left {
+    overflow: hidden;
+    float: left;
+    margin-top: px;
+}
+.footer-right{
+    float: right;
+    margin-top: 45px;
+    padding: 20px;
+    line-height: 25px;
+}
